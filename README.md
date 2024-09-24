@@ -105,12 +105,18 @@ To start Tomcat, navigate to its `bin` directory and run the `startup.sh` script
 bin/startup.sh
 ```
 
-![image](https://github.com/user-attachments/assets/07370e36-631c-4a05-883a-574a05c22fdc)
+![image](https://github.com/user-attachments/assets/f9483acb-1bc5-4fce-a8ac-d37e84673b66)
 
 To verify Tomcat is running, use the following command:
 
 ```
 ps -ef | grep tomcat
+```
+
+Switch back to root user
+
+```
+cd ..
 ```
 
 ![image](https://github.com/user-attachments/assets/79f37bc5-2bed-400e-9556-1ab6e1ac7cb6)
